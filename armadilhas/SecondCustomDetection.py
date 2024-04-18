@@ -8,7 +8,7 @@ detector.setModelTypeAsYOLOv3()
 detector.setModelPath("armadilhas/insetos/models/yolov3_insetos_mAP-0.51397_epoch-34.pt")
 detector.setJsonPath("armadilhas/insetos/json/insetos_yolov3_detection_config.json")
 detector.loadModel()
-detections, extracted_objects_array = detector.detectObjectsFromImage(input_image="armadilhas/teste/insetos_teste1.jpg", output_image_path="inseto_teste1-detected.jpg", extract_detected_objects=True)
+detections, extracted_objects_array = detector.detectObjectsFromImage(input_image="armadilhas/teste/insetos_teste1.jpg", output_image_path="inseto_teste1-detected.jpg", extract_detected_objects=False)
 
 
 for detection, object_path in zip(detections, extracted_objects_array):
