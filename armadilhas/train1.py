@@ -7,3 +7,5 @@ trainer.setTrainConfig(object_names_array=["tuta-absoluta", "lagarta"], batch_si
 # In the above,when training for detecting multiple objects,
 #set object_names_array=["object1", "object2", "object3",..."objectz"]
 trainer.trainModel()
+
+
