@@ -1,2 +1,3 @@
-tuta
-inseto
+tuta-absoluta
+mosca
+abelha
